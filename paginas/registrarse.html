@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../estilo/estilo.css" />
+    <link rel="icon" href="../logos/logo-kairos.png" />
+    <title>Kairos</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="logoN">
+          <img id="logo" src="../logos/logo-kairos.png">
+          <h1>Kairos</h1>
+        </div>
+        <div class="primerLink">
+          <a href="../index.html"> Inicio </a>
+        </div>
+        <div class="segundoLink">
+          <a href="../paginas/productos.html"> Productos </a>
+        </div>
+        <div class="tercerLink">
+          <a href="../paginas/registrarse.html"> Ingresar usuario/registrarse </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="contenedorRegistrarse">
+        <div class="registrarse">
+          <form>
+             <div class="formulario">
+               <label for="inputNombre"> Nombre y apellido: </label>
+               <input type="text" id="inputNombre" />
+               <label for="inputEmail"> Email: </label>
+               <input type="email" id="inputPassword4" />
+   
+               <label for="inputPassword"> Contraseña: </label>
+               <input type="password" id="inputPassword" />
+   
+               <label for="inputCity"> Ciudad </label>
+               <input type="text" id="inputCity" />
+   
+               <label for="inputState"> Pais </label>
+               
+               <select id="inputState">
+                 <option selected>Elegir...</option>
+                 <option>Argentina</option>
+                 <option>Uruguay</option>
+                 <option>Paraguay</option>
+               </select>
+   
+                <input type="checkbox" />
+                <label for="Check"> No soy un robot </label>
+     
+     
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar datos</button>
+          </form>
+        </div>
+        <div class="ingresarMail">
+          <div>
+            <h3>Por favor, ingrese su email:</h3>
+            <label for="staticEmail">
+              <strong> Email: </strong>
+            </label>
+            <div>
+              <input type="text" id="staticEmail" value="juan98@hotmail.com" />
+            </div>
+          </div>
+
+          <div>
+            <h3>Ingrese su contraseña:</h3>
+
+            <label for="contraseña">
+              <strong> Contraseña: </strong>
+            </label>
+            <div>
+              <input type="password" value="*******" />
+              <button type="submit">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer> 
+      <div class="preguntas">
+          <button type="button" class="botones-footer">Preguntas frecuentes</button>
+          <ul class="preguntas-frecuentes">
+            <li>¿Como registro mi emprendimiento en Kairos?</li>
+            <li>¿Puedo sumar mas de un emprendimiento?</li>
+            <li>¿Puedo cancelar mi suscripcion cuando quiera?</li>
+          </ul>
+      </div>
+        
+      <div class="pagos">
+          <button type="button" class="botones-footer">Medios de pago</button>
+          <ul class="pagos">
+            <li>Transferencia bancaria</li>
+            <li>Tarjetas</li>
+            <li>Efectivo</li>
+          </ul>
+      </div>
+
+      <div class="redes">
+        <img src="../logos/logo-facebook.png.png" alt="icono de facebook"/>
+        <img src="../logos/logo-instagram.png.png" alt="icono de instagram"/>
+        <img src="../logos/logo-whatsapp.png.png" alt="icono de whatsapp"/>
+      </div>
+    </footer>
+  </body>
+</html>

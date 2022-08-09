@@ -1,0 +1,478 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imagenes-de-productos/background.jfif);
+    background-repeat: repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* GRIDS */
+
+.grid{
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 5% auto 5%;
+    grid-template-rows: 3% auto 7%;
+    grid-template-areas:
+    "header header header"
+    "mainIndex mainIndex mainIndex"
+    "footer footer footer";
+}
+
+
+/* BARRA DE NAVEGACION / HEADER */
+
+header{
+    grid-area: header;
+}
+
+nav{
+    background-color: aliceblue;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 100%;
+    grid-template-areas: 
+    "logoN primerLink segundoLink tercerLink";
+}
+
+.logoN{
+    grid-area: logoN;
+}
+.primerLink{
+    grid-area: primerLink;
+}
+.segundoLink{
+    grid-area: segundoLink;
+}
+.tercerLink{
+    grid-area: tercerLink;
+}
+
+#logo{
+    width: 5%;
+    float: left;
+}
+
+h1{
+    font-size: medium;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+/* FIN BARRA NAV */
+
+/* MAIN INDEX */
+
+.mainIndex{
+    grid-area: mainIndex;
+
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: auto;
+    grid-template-rows: auto 1fr 1fr;
+    grid-template-areas: 
+    "carousel carousel"
+    "medio medio"
+    "subtitulo subtitulo";
+
+    margin: 5vw;
+    padding: 2vw;
+    justify-content: space-between;
+}
+
+.medio{
+    grid-area: medio;
+    
+    margin: 5vw;
+    padding: 2vw;
+
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    "eslogan desarrollo";
+}
+.carousel{
+    grid-area: carousel;
+
+}
+
+
+
+.eslogan{
+    grid-area: eslogan;
+    
+    text-align: center;
+    color: aliceblue;
+}
+.desarrollo{
+    grid-area: desarrollo;
+    
+    color: aliceblue;
+}
+
+.subtitulo{
+    background-color: #CEDB90;
+    margin: 2vw;
+    padding: 1vw;
+
+    grid-area: subtitulo;
+    
+    text-align: left;
+    text-decoration: solid;
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+.productos{
+    margin: 3vw;
+    padding: 2vw;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #CEDB90;
+}
+.productos img{
+    border: 3px;
+    border-color: aliceblue;
+    border-style: double;
+    width: 170px;
+}
+
+/* FIN MAIN INDEX */
+
+/* FOOTER */
+
+footer{
+    grid-area: footer; 
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 100%;
+    grid-template-areas:
+    "preguntas pagos redes";
+
+    padding: 2vw;
+    font-size: x-small;
+    background-color: #cfdb90c2;
+}
+
+.preguntas{
+    grid-area: preguntas;
+}
+.pagos{
+    grid-area: pagos;
+}
+.redes{
+    grid-area: redes;
+}
+
+.redes img{
+    width: 30px;
+}
+
+.botones-footer{
+    border-bottom: 4px;
+    border-color: antiquewhite;
+    border-style: double;
+    margin-bottom: 2%;
+}
+
+/* FIN FOOTER*/
+
+/* PAGINA PRODUCTOS */
+
+/* Contenedor hamburguesas */
+
+.contenedorProductos{
+    margin: 3vw;
+    padding: 3vw;
+
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 2% auto 2%;
+    grid-template-rows: 3% auto 5%;
+    grid-template-areas: 
+    "header header header"
+    "emprendimientos emprendimientos emprendimientos"
+    "footer footer footer";
+}
+
+.emprendimientos{
+    grid-area: emprendimientos;
+
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 1fr, 1fr;
+    grid-template-rows: 5% 47% 47%;
+    grid-template-areas:
+    "tituloProductos tituloProductos"
+    "contenedorGaia contenedorGaia"
+    "contenedorHamburguesas contenedorHamburguesas";
+}
+
+.contenedorGaia, .contenedorHamburguesas, .tituloProductos{
+    border-color: rgb(201, 200, 200);
+    border-style:solid;
+    border-width: 2px;
+}
+.tituloProductos{  
+    background-color: #cfdb90c2;
+    color: aliceblue;
+    text-align: center;
+    padding: 3vw;
+    margin-bottom: 3vw;
+    font-size:large;
+
+    grid-area: tituloProductos;
+    
+}
+
+.contenedorGaia{
+    background-color: #cfdb90c2;
+    
+
+    margin: 2vw;
+    padding: 5vw;
+
+
+    grid-area: contenedorGaia;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+    "tituloGaia tituloGaia tituloGaia"
+    "listaGaia gaia opinionGaia"  ;
+}
+
+.tituloGaia{
+    background-color: #cfdb90c2;
+    color: aliceblue;
+    text-align: center;
+    font-size: smaller;
+
+    grid-area: tituloGaia;
+}
+.gaia{
+    background-color: aliceblue;
+    color: grey;
+    text-align: center;
+    font-size: small;
+    padding: 4vw;
+    margin: 2vw;
+
+    grid-area: gaia;
+}
+.opinionGaia{
+    grid-area: opinionGaia;
+    margin: 2vw;
+}
+
+.listaGaia{
+    background-color: aliceblue;
+    color: grey;
+    margin: 2vw;
+    padding: 2vw;
+
+    grid-area: listaGaia;
+}
+
+.listaGaia ul{
+    list-style: none;
+}
+
+
+.listaGaia img, .tituloHamburguesas img{
+    margin: 2vw;
+    width: 200px;    
+    border: 2px;
+    border-color: aliceblue;
+    border-style: double;
+}
+ 
+.contenedorHamburguesas{
+    background-color: #cfdb90c2;
+
+    grid-area: contenedorHamburguesas;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 5% 5% auto;
+    grid-template-areas:
+    "tituloHamburguesas tituloHamburguesas tituloHamburguesas"
+    "tituloTabla tituloTabla tituloTabla"
+    "tablaHamburguesas tablaHamburguesas opinionHamburguesas";
+}
+
+
+.tituloHamburguesas{
+    text-align: center;
+    margin: 2vw;
+    color: aliceblue;
+
+    grid-area: tituloHamburguesas;
+}
+
+
+.tituloTabla{
+    text-decoration: solid;
+    color: aliceblue;
+    background-color: #cfdb90c2;
+    margin: 2vw;
+    padding: 2vw;
+
+    grid-area: tituloTabla;
+}
+
+.tablaHamburguesas{
+    margin: 3vw;
+    padding: 2vw;
+    grid-area: tablaHamburguesas;
+}
+
+table{
+    background-color: aliceblue;
+    border-style: double;
+    border-color:#cfdb90c2;
+}
+.opinionHamburguesas{
+    margin: 4vw;
+    padding: 2vw;
+
+    grid-area: opinionHamburguesas;
+}
+
+/* FIN CONTENEDOR HAMBUGUESAS*/
+
+
+
+
+/* PARA REGISTRARSE*/
+
+.contenedorRegistrarse{
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: 5% auto 5%;
+    grid-template-rows: 3% auto 4%;
+    grid-template-areas:
+    "header header header"
+    "registrarse registrarse registrarse"
+    "footer footer footer";
+}
+
+.registrarse{
+    grid-area: registrarse;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "formulario"
+    "ingresarMail";
+}
+
+.formulario{
+    background-color: #cfdb90c2;
+    color: aliceblue;
+    padding: 4vw;
+    margin: 2vw;
+
+    grid-area: formulario;
+}
+
+
+.ingresarMail{
+    color: aliceblue;
+    background-color: #cfdb90c2;
+    padding: 2vw;
+    margin: 2vw;
+
+    grid-area: ingresarMail;
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+    .grid{
+        height: 100vh;
+        margin: 0;
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas:
+        "header"
+        "mainIndex"    
+        "footer";
+    }
+    .mainIndex{
+        grid-area: mainIndex;
+    
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 100%;
+        grid-template-rows: auto 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "carousel"
+        "medio"
+        "desarrollo"
+        "subtitulo";
+    }
+    .carousel img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contenedorProductos{
+        margin: 3vw;
+        padding: 3vw;
+    
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, auto);
+        grid-template-areas: 
+        "header"
+        "tituloProductos"
+        "tituloGaia"
+        "listaGaia"
+        "opinionGaia"
+        "tituloHamburguesas"
+        "tablaHamburguesas"
+        "opinionHamburguesas"
+        "footer";
+    }
+    .gaia, .tituloTabla{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .contenedorRegistrarse{
+        display: grid;
+        grid-gap: 0.5em;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+        "header"
+        "registrarse"
+        "formulario"
+        "ingresarMail"
+        "footer";
+    }
+}
+
