@@ -1,0 +1,139 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(226, 218, 194, 0.822);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* BARRA DE NAV */
+
+#logo{
+    width: 25px;
+}
+nav{
+    background-color: aliceblue;
+    padding: 5px;
+}
+.buscador, .nav-item{
+    text-align: start;
+    padding-top: 25px;
+}
+.kairos{
+    padding: 10px;
+    text-align: center ;
+}
+.registrarseNav{
+    padding-top: 20px;
+    text-align: end;
+}
+.me-2{
+    width: min-content;
+}
+
+.contenedorProductos{
+    background-color: rgb(158, 182, 146);
+    margin: 3%;
+    padding: 3%;
+    border-color: aliceblue;
+    border-style: ridge;
+}
+.contenedorMedio{
+    margin: 6%;
+}
+.redes img{
+    width: 40px;
+}
+.eslogan, .desarrollo, .productos{
+    text-align: center;
+    padding: 5%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.medio{
+    margin: 5%;
+    padding-bottom: 10%;
+    background-color: rgba(140, 123, 153, 0.863);
+    border-color: aliceblue;
+    border-style: ridge;
+    color: aliceblue;
+}
+.card{
+    margin: 2px;
+    color: black;
+}
+.btn, .tituloProductos{
+    background-color:rgba(140, 123, 153, 0.863);
+    color: aliceblue;
+
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(158, 182, 146);
+    padding: 2%;
+
+    text-align: center;
+}
+
+.contenedorProductos, .contenedorInicioSesion{
+    background-color:rgba(140, 123, 153, 0.863);
+    padding: 4vw;
+    margin: 2vw;
+    border-style: double;
+    color: aliceblue;
+}
+
+
+.contenedorHamburguesas, .contenedorGaia{
+    margin: 2vw;
+    background-color:rgb(158, 182, 146);
+    padding: 3vw;
+    border-style: ridge;
+    color: aliceblue;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.tituloGaia, .tituloHamburguesas{
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(37, 37, 37);
+    margin-bottom: 2vw;
+}
+.gaiaDesarrollo, .hamburguesasDesarrollo{
+    background-color: aliceblue;
+    color: black;
+    margin: 2vw;
+}
+header{
+    margin: 2vw;
+}
+
+.opinionGaia, .opinionHamburguesas{
+    margin: 2vw;
+}
+.contenedorMedio{
+    background-color: rgba(140, 123, 153, 0.863);
+}
+
+@media only screen and (max-width: 768px){
+    .kairos, .registrarseNav, .eslogan, .desarrollo, .redes{
+        display: none;
+    } 
+}
+
+
+
+
+
+
+
+
+
