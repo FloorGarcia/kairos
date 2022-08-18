@@ -1,0 +1,161 @@
+
+.medio{
+    margin: 5%;
+    padding-bottom: 10%;
+    background-color: $paletaVio;
+    border-color: aliceblue;
+    border-style: ridge;
+    color: aliceblue;
+
+    .contenedorMedio{
+        margin: 6%;
+        .eslogan{
+            text-align: center;
+            padding: 5%;
+        
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .desarrollo{
+            text-align: center;
+            padding: 5%;
+        
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+    }
+    .contenedorProductos{
+        background-color: $paletaVer;
+        margin: 3%;
+        padding: 3%;
+        border-color: aliceblue;
+        border-style: ridge;
+
+        .subtitulo{
+            text-align: center;
+            padding: 2vw;
+        }
+        .card{
+            margin: 2px;
+            color: black;
+
+            text-align: center;
+            .btn{
+                background-color: $paletaVio;
+                color: aliceblue;
+                text-align: center;
+            }
+        }
+    }
+
+}
+
+/* PAGINA PRODUCTOS */
+
+.contenedorPaginaProductos{
+    background-color: $paletaVio;
+    padding: 4vw;
+    margin: 2vw;
+    border-style: double;
+    color: aliceblue;
+    
+    .contenedorGaia{
+        margin: 2vw;
+        background-color: $paletaVer;
+        padding: 3vw;
+        border-style: ridge;
+        color: aliceblue;
+
+        .tituloGaia{
+            text-align: center;
+            background-color: aliceblue;
+            color: rgb(37, 37, 37);
+            margin-bottom: 2vw;
+        }
+        .card{
+            margin: 2px;
+            color: black;
+            .btn{
+                background-color:$paletaVio;
+                color: aliceblue;
+            
+                text-align: center;
+            }
+        }
+        .gaiaDesarrollo{
+            background-color: aliceblue;
+            color: black;
+            margin: 2vw;
+            padding: 2vw;
+        }
+        .opinionGaia{
+            margin: 2vw;
+        }
+
+    }
+    .contenedorHamburguesas{
+        margin: 2vw;
+        background-color:$paletaVer;
+        padding: 3vw;
+        border-style: ridge;
+        color: aliceblue;
+        
+        display: flex;
+        justify-content: center;
+
+        .tituloHamburguesas{
+            text-align: center;
+            background-color: aliceblue;
+            color: rgb(37, 37, 37);
+            margin-bottom: 2vw;
+        }
+        .card{
+            margin: 2px;
+            color: black;
+            .btn{
+                background-color: $paletaVio;
+                color: aliceblue;
+            
+                text-align: center;
+            }
+        }
+        .hamburguesasDesarrollo{
+            background-color: aliceblue;
+            color: black;
+            margin: 2vw;
+            padding: 2vw;
+        }
+        .opinionHamburguesas{
+            margin: 2vw;
+        }
+    }
+}
+
+/* PAGINA REGISTRARSE */
+
+.contenedorInicioSesion{
+    background-color: $paletaVio;
+    padding: 4vw;
+    margin: 2vw;
+    border-style: double;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+.productos{
+    text-align: center;
+    padding: 5%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+

@@ -15,21 +15,20 @@
     <nav class="container-fluid">
       <div class="row">
         <div class="nav-item dropdown col-lg-1 col-md-12 col-xs-6">
-            <a class="nav-link dropdown-toggle" width="100px" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" width="100px" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Menu
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="../index.html">Pagina principal</a></li>
-              <li><a class="dropdown-item" href="./productos.html">Productos<a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="./registrarse.html">Registrarse</a></li>
+              <li>
+                <a class="dropdown-item" href="../index.html">Pagina principal</a>
+                <a class="dropdown-item" href="./productos.html">Productos<a>
+                <a class="dropdown-item" href="./registrarse.html">Registrarse</a>
             </ul>
-          </ul>
         </div>
         <div class="buscador col-lg-2 col-md-12 col-xs-6">
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">
-                <img src="./logos/lupa.png" width="20px" alt="lupa">
+                <img src="../logos/lupa.png" width="20px" alt="lupa">
               </button>
             </form>
         </div>
@@ -38,8 +37,8 @@
           <h3> KAIROS </h3>
         </div>
         <div class="registrarseNav col-lg-2 col-md-12">
-          <a href="./paginas/registrarse.html">
-            <img src="../logos/icono-login.png.png" width="25px" alt="">
+          <a href="./registrarse.html">
+            <img src="../logos/icono-login.png.png" width="25px" alt="">.
           </a>
             <a class="navbar-brand" href="./registrarse.html"> Registrarse</a>
             <button class="navbar-toggler" type="button"        data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"   aria-expanded="false" aria-label="Toggle navigation">
@@ -53,8 +52,7 @@
         <div class="row">
           <div class="tituloProductos col-lg-12">
             <h4>
-              ¡Te mostramos algunos de los emprendedores que se unieron a
-              nosotros!
+              Algunos de nuestros emprendedores
             </h4>
           </div>
         </div>
@@ -62,101 +60,112 @@
     </header>
     
     <main>
-      <div class="contenedorProductos">
+      <div class="contenedorPaginaProductos">
         <div class="contenedorGaia">
           <div class="row">
             <div class="tituloGaia col-lg-12">
               <h5>
-                Los mejores objetos para decorar tu casa, los encontras en Gaia🎇
+                Los mejores objetos para decorar tu casa, los encontras aca:
               </h5>
             </div>
-            <div class="card col-lg-4" style="width: 14rem;">
-              <img src="../imagenes-de-productos/productoDecoracion.jpg" class="card-img-top" alt="decoracion">
-              <div class="card-body">
-                <p class="card-text">
-                  <h4>
-                    Te dejamos una lista de las cositas que tiene para ofrecerte:
-                  </h4>
-                  <ul>
-                    <li>Ollas</li>
-                    <li>Platos</li>
-                    <li>Vasos</li>
-                    <li>Macetas</li>
-                  </ul>
-                </p>
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="../imagenes-de-productos/productoDecoracion.jpg" class="card-img-top" alt="decoracion">
+                <div class="card-body">
+                  <p class="card-text">
+                    <h4>
+                      Te dejamos una lista de las cositas que tiene para ofrecerte:
+                    </h4>
+                    <ul>
+                      <li>Ollas</li>
+                      <li>Platos</li>
+                      <li>Vasos</li>
+                      <li>Macetas</li>
+                    </ul>
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="gaiaDesarrollo col-lg-4"> 
-              <p>
-                "Gaia", es un pequeño emprediemiento comenzado por Liliana, de
-                 Villa Casique. Impulsada por su amor hacia las manualidades. Liliana nos muestra una variedad muy amplia objetos de alfareria.
+            <div class="col-lg-4">
+              <div class="gaiaDesarrollo ">
+                <p>
+                  "Gaia", es un pequeño emprediemiento comenzado por Liliana, de
+                  Villa Casique. Impulsada por su amor hacia las manualidades. Liliana nos muestra una variedad muy amplia objetos de alfareria.
                   Ademas, te ofrece la opcion de realizar pedido por encargue🙌
-              </p>           
+                </p>           
+              </div> 
             </div>
-            <div class="opinionGaia col-lg-4">
-              <h5>Queremos saber tu opinion</h5>
-              <textarea placeholder="Deje su comentario" id="comentario" style="height: 250px"> </textarea>
-              <label for="comentarios"> </label>
-              <button type="submit">Enviar comentario</button>
+            <div class="col-lg-4">
+              <div class="opinionGaia">
+                <h3>Queremos saber tu opinion</h3>
+                <h4>Por favor, dejanos tu comentario:</h4>
+                <textarea placeholder="Deje su comentario" id="comentarioGaia"> </textarea>
+                <label for="comentarios"> </label>
+                <button type="submit">Enviar comentario</button>
+              </div>
             </div>
           </div>
         </div>
+
         <div class="contenedorHamburguesas">
           <div class="row">
             <div class="tituloHamburguesas col-lg-12">
               <h5>
-                ¿Te cansaste de comer siempre las mismas hamburguesas? ¡Agus te lo
-                resuelve! 🍔
+                ¿Te cansaste de comer siempre las mismas hamburguesas?
               </h5>
             </div>
-            <div class="card col-lg-4" style="width: 14rem;">
-                  <img src="../imagenes-de-productos/productoHamburguesas.jpg" class="card-img-top" alt="hamburguesas">
-                  <div class="card-body">
-                    <p class="card-text">
-                      <table class="tablaHamburguesas">
-                        <tr>
-                          <th>Variedad de sabores</th>
-                          <th>Cantidad</th>
-                        </tr>
-                        <tr>
-                          <td>Pescado</td>
-                          <td>x2 - x4</td>
-                        </tr>
-                        <tr>
-                          <td>Lentejas</td>
-                          <td>x2 - x4 - x6</td>
-                        </tr>
-                        <tr>
-                          <td>Espinaca y queso brie</td>
-                          <td>x2 - x4 - x6</td>
-                        </tr>
-              
-                        <tr>
-                          <td>Mix de verduras</td>
-                          <td>x2 - x4 - x6 - x8</td>
-                        </tr>
-              
-                        <tr>
-                          <td>Pollo</td>
-                          <td>x2 - x4 - x6 - x8</td>
-                        </tr>
-                      </table>
-                    </p>
-                  </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img src="../imagenes-de-productos/productoHamburguesas.jpg" class="card-img-top" alt="hamburguesas">
+                <div class="card-body">
+                  <p class="card-text">
+                    <table class="tablaHamburguesas">
+                      <tr>
+                        <th>Variedad de sabores</th>
+                        <th>Cantidad</th>
+                      </tr>
+                      <tr>
+                        <td>Pescado</td>
+                        <td>x2 - x4</td>
+                      </tr>
+                      <tr>
+                        <td>Lentejas</td>
+                        <td>x2 - x4 - x6</td>
+                      </tr>
+                      <tr>
+                        <td>Espinaca y queso brie</td>
+                        <td>x2 - x4 - x6</td>
+                      </tr>
+                      <tr>
+                        <td>Mix de verduras</td>
+                        <td>x2 - x4 - x6 - x8</td>
+                      </tr>
+                      <tr>
+                        <td>Pollo</td>
+                        <td>x2 - x4 - x6 - x8</td>
+                      </tr>
+                    </table>
+                  </p>
+                </div>
+              </div>
             </div>
-            <div class="hamburguesasDesarrollo col-lg-4"> 
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure asperiores, culpa vel reprehenderit architecto reiciendis enim, explicabo deleniti sed nostrum, et laudantium hic ratione sequi suscipit quo repellendus id nesciunt?
-                </p>           
+            <div class="col-lg-4">
+              <div class="hamburguesasDesarrollo"> 
+                  <p>
+                    La combinación de sus sabores la hace simplemente irresistible, y es difícil imaginar que pueda ser más deliciosa. Lo mejor de todo es que estas recetas de hamburguesas que tiene Agustina para mostrarte funcionan para todos los gustos, por lo que encontrarás una gran variedad de sabores y texturas. ¡Se te van a antojar todas!
+                  </p>           
+              </div>
             </div>
-            <div class="opinionHamburguesas col-lg-4">
-                      <h3>Queremos saber tu opinion</h3>
-                      <h4>Por favor, dejanos tu comentario:</h4>
-                      <textarea placeholder="Deje su comentario" id="comentario" style="height: 250px"> </textarea>
-                      <label for="comentarios"> </label>
-                      <button type="submit">Enviar comentario</button>
+            <div class="col-lg-4">
+              <div class="opinionHamburguesas">
+                <h3>Queremos saber tu opinion</h3>
+                <h4>Por favor, dejanos tu comentario:</h4>
+                <textarea placeholder="Deje su comentario" id="comentarioHamburguesas"> </textarea>
+                <label for="comentarios"> </label>
+                <button type="submit">Enviar comentario</button>
+              </div>
             </div>
-            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -184,9 +193,15 @@
           </ul>
         </div>
         <div class="redes col-lg-4 col-md-12">
+          <a href="https://www.facebook.com/">
             <img src="../logos/logo-facebook.png.png" alt="icono de facebook"/>
+          </a>
+          <a href="https://www.instagram.com/">
             <img src="../logos/logo-instagram.png.png" alt="icono de instagram"/>
+          </a>
+          <a href="https://twitter.com/?lang=es">
             <img src="../logos/logo-whatsapp.png.png" alt="icono de whatsapp"/>
+          </a>
         </div>
       </div>
     </footer>

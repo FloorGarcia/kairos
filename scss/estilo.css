@@ -12,6 +12,8 @@ nav .buscador {
   padding-top: 25px;
 }
 nav .buscador .me-2 {
+  width: -webkit-min-content;
+  width: -moz-min-content;
   width: min-content;
 }
 nav .buscador .me-2 .btn {
@@ -23,9 +25,6 @@ nav .nav-item {
   text-align: start;
   padding-top: 25px;
 }
-nav .nav-item .nav-link {
-  padding-left: 2vw;
-}
 nav .kairos {
   padding: 10px;
   text-align: center;
@@ -35,14 +34,9 @@ nav .registrarseNav {
   text-align: end;
 }
 
-header {
-  margin: 2vw;
-}
 header .tituloProductos {
   background-color: rgba(140, 123, 153, 0.863);
   color: aliceblue;
-  padding: 1vw;
-  font-style: italic;
   text-align: center;
 }
 
@@ -78,12 +72,10 @@ header .tituloProductos {
 }
 .medio .contenedorProductos .subtitulo {
   text-align: center;
-  padding: 2vw;
 }
 .medio .contenedorProductos .card {
   margin: 2px;
   color: black;
-  text-align: center;
 }
 .medio .contenedorProductos .card .btn {
   background-color: rgba(140, 123, 153, 0.863);
@@ -105,6 +97,8 @@ header .tituloProductos {
   padding: 3vw;
   border-style: ridge;
   color: aliceblue;
+  display: flex;
+  justify-content: center;
 }
 .contenedorPaginaProductos .contenedorGaia .tituloGaia {
   text-align: center;
@@ -112,20 +106,10 @@ header .tituloProductos {
   color: rgb(37, 37, 37);
   margin-bottom: 2vw;
 }
-.contenedorPaginaProductos .contenedorGaia .card {
-  margin: 2px;
-  color: black;
-}
-.contenedorPaginaProductos .contenedorGaia .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
-}
 .contenedorPaginaProductos .contenedorGaia .gaiaDesarrollo {
   background-color: aliceblue;
   color: black;
   margin: 2vw;
-  padding: 2vw;
 }
 .contenedorPaginaProductos .contenedorGaia .opinionGaia {
   margin: 2vw;
@@ -145,20 +129,10 @@ header .tituloProductos {
   color: rgb(37, 37, 37);
   margin-bottom: 2vw;
 }
-.contenedorPaginaProductos .contenedorHamburguesas .card {
-  margin: 2px;
-  color: black;
-}
-.contenedorPaginaProductos .contenedorHamburguesas .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
-}
 .contenedorPaginaProductos .contenedorHamburguesas .hamburguesasDesarrollo {
   background-color: aliceblue;
   color: black;
   margin: 2vw;
-  padding: 2vw;
 }
 .contenedorPaginaProductos .contenedorHamburguesas .opinionHamburguesas {
   margin: 2vw;
@@ -199,4 +173,4 @@ footer .btn {
   .kairos, .registrarseNav, .eslogan, .desarrollo, .redes {
     display: none;
   }
-}
+}/*# sourceMappingURL=estilo.css.map */
