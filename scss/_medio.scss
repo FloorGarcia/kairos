@@ -59,7 +59,7 @@
     margin: 2vw;
     border-style: double;
     color: aliceblue;
-    
+   
     .contenedorGaia{
         margin: 2vw;
         background-color: $paletaVer;
@@ -130,6 +130,169 @@
             margin: 2vw;
         }
     }
+    .contenedorLenceria{
+        margin: 2vw;
+        background-color: $paletaVer;
+        padding: 3vw;
+        border-style: ridge;
+        color: aliceblue;
+
+        .tituloLenceria{
+            text-align: center;
+            background-color: aliceblue;
+            color: rgb(37, 37, 37);
+            margin-bottom: 2vw;
+        }
+        .card{
+            margin: 2px;
+            color: black;
+            .btn{
+                background-color:$paletaVio;
+                color: aliceblue;
+            
+                text-align: center;
+            }
+        }
+        .lenceriaDesarrollo{
+            background-color: aliceblue;
+            color: black;
+            margin: 2vw;
+            padding: 2vw;
+        }
+        .opinionLenceria{
+            margin: 2vw;
+        }
+
+    }
+    .contenedorAlfareria{
+        margin: 2vw;
+        background-color: $paletaVer;
+        padding: 3vw;
+        border-style: ridge;
+        color: aliceblue;
+
+        .tituloAlfareria{
+            text-align: center;
+            background-color: aliceblue;
+            color: rgb(37, 37, 37);
+            margin-bottom: 2vw;
+        }
+        .card{
+            margin: 2px;
+            color: black;
+            .btn{
+                background-color:$paletaVio;
+                color: aliceblue;
+            
+                text-align: center;
+            }
+        }
+        .alfareriaDesarrollo{
+            background-color: aliceblue;
+            color: black;
+            margin: 2vw;
+            padding: 2vw;
+        }
+        .opinionAlfareria{
+            margin: 2vw;
+        }
+
+    }
+    .contenedorRopa{
+        margin: 2vw;
+        background-color: $paletaVer;
+        padding: 3vw;
+        border-style: ridge;
+        color: aliceblue;
+
+        .tituloRopa{
+            text-align: center;
+            background-color: aliceblue;
+            color: rgb(37, 37, 37);
+            margin-bottom: 2vw;
+        }
+        .card{
+            margin: 2px;
+            color: black;
+            .btn{
+                background-color:$paletaVio;
+                color: aliceblue;
+            
+                text-align: center;
+            }
+        }
+        .ropaDesarrollo{
+            background-color: aliceblue;
+            color: black;
+            margin: 2vw;
+            padding: 2vw;
+        }
+        .opinionRopa{
+            margin: 2vw;
+        }
+
+    }
+    .contenedorTelas{
+        margin: 2vw;
+        background-color: $paletaVer;
+        padding: 3vw;
+        border-style: ridge;
+        color: aliceblue;
+
+        .tituloTelas{
+            text-align: center;
+            background-color: aliceblue;
+            color: rgb(37, 37, 37);
+            margin-bottom: 2vw;
+        }
+        .card{
+            margin: 2px;
+            color: black;
+            .btn{
+                background-color:$paletaVio;
+                color: aliceblue;
+            
+                text-align: center;
+            }
+        }
+        .telasDesarrollo{
+            background-color: aliceblue;
+            color: black;
+            margin: 2vw;
+            padding: 2vw;
+        }
+        .opinionTelas{
+            margin: 2vw;
+        }
+
+    }
+    .contenedorPaginacion{
+        margin: 2vw;
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        
+        ul{
+            padding-left: 2vw;
+            padding-right: 2vw;
+            border-style: double;
+            border-color: aliceblue;
+
+            display: flex;
+            justify-content: space-evenly;
+
+            .page-item{
+                color: aliceblue;
+                padding: 1vw;
+                margin: 1vw;
+                list-style: none;
+                &:hover{
+                    background-color: $paletaBeige;
+                    color: black;
+                }
+            }
+        }
+    }
 }
 
 /* PAGINA REGISTRARSE */
@@ -140,6 +303,17 @@
     margin: 2vw;
     border-style: double;
     color: aliceblue;
+
+    .btn{
+        background-color: $paletaVer;
+        color: aliceblue;
+        border-color: black;
+        &:hover{
+            background-color: $paletaBeige;
+            color: black;
+
+        }
+    }
 }
 
 

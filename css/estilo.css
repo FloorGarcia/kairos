@@ -163,6 +163,154 @@ header .tituloProductos {
 .contenedorPaginaProductos .contenedorHamburguesas .opinionHamburguesas {
   margin: 2vw;
 }
+.contenedorPaginaProductos .contenedorLenceria {
+  margin: 2vw;
+  background-color: rgb(158, 182, 146);
+  padding: 3vw;
+  border-style: ridge;
+  color: aliceblue;
+}
+.contenedorPaginaProductos .contenedorLenceria .tituloLenceria {
+  text-align: center;
+  background-color: aliceblue;
+  color: rgb(37, 37, 37);
+  margin-bottom: 2vw;
+}
+.contenedorPaginaProductos .contenedorLenceria .card {
+  margin: 2px;
+  color: black;
+}
+.contenedorPaginaProductos .contenedorLenceria .card .btn {
+  background-color: rgba(140, 123, 153, 0.863);
+  color: aliceblue;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorLenceria .lenceriaDesarrollo {
+  background-color: aliceblue;
+  color: black;
+  margin: 2vw;
+  padding: 2vw;
+}
+.contenedorPaginaProductos .contenedorLenceria .opinionLenceria {
+  margin: 2vw;
+}
+.contenedorPaginaProductos .contenedorAlfareria {
+  margin: 2vw;
+  background-color: rgb(158, 182, 146);
+  padding: 3vw;
+  border-style: ridge;
+  color: aliceblue;
+}
+.contenedorPaginaProductos .contenedorAlfareria .tituloAlfareria {
+  text-align: center;
+  background-color: aliceblue;
+  color: rgb(37, 37, 37);
+  margin-bottom: 2vw;
+}
+.contenedorPaginaProductos .contenedorAlfareria .card {
+  margin: 2px;
+  color: black;
+}
+.contenedorPaginaProductos .contenedorAlfareria .card .btn {
+  background-color: rgba(140, 123, 153, 0.863);
+  color: aliceblue;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorAlfareria .alfareriaDesarrollo {
+  background-color: aliceblue;
+  color: black;
+  margin: 2vw;
+  padding: 2vw;
+}
+.contenedorPaginaProductos .contenedorAlfareria .opinionAlfareria {
+  margin: 2vw;
+}
+.contenedorPaginaProductos .contenedorRopa {
+  margin: 2vw;
+  background-color: rgb(158, 182, 146);
+  padding: 3vw;
+  border-style: ridge;
+  color: aliceblue;
+}
+.contenedorPaginaProductos .contenedorRopa .tituloRopa {
+  text-align: center;
+  background-color: aliceblue;
+  color: rgb(37, 37, 37);
+  margin-bottom: 2vw;
+}
+.contenedorPaginaProductos .contenedorRopa .card {
+  margin: 2px;
+  color: black;
+}
+.contenedorPaginaProductos .contenedorRopa .card .btn {
+  background-color: rgba(140, 123, 153, 0.863);
+  color: aliceblue;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorRopa .ropaDesarrollo {
+  background-color: aliceblue;
+  color: black;
+  margin: 2vw;
+  padding: 2vw;
+}
+.contenedorPaginaProductos .contenedorRopa .opinionRopa {
+  margin: 2vw;
+}
+.contenedorPaginaProductos .contenedorTelas {
+  margin: 2vw;
+  background-color: rgb(158, 182, 146);
+  padding: 3vw;
+  border-style: ridge;
+  color: aliceblue;
+}
+.contenedorPaginaProductos .contenedorTelas .tituloTelas {
+  text-align: center;
+  background-color: aliceblue;
+  color: rgb(37, 37, 37);
+  margin-bottom: 2vw;
+}
+.contenedorPaginaProductos .contenedorTelas .card {
+  margin: 2px;
+  color: black;
+}
+.contenedorPaginaProductos .contenedorTelas .card .btn {
+  background-color: rgba(140, 123, 153, 0.863);
+  color: aliceblue;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorTelas .telasDesarrollo {
+  background-color: aliceblue;
+  color: black;
+  margin: 2vw;
+  padding: 2vw;
+}
+.contenedorPaginaProductos .contenedorTelas .opinionTelas {
+  margin: 2vw;
+}
+.contenedorPaginaProductos .contenedorPaginacion {
+  margin: 2vw;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+.contenedorPaginaProductos .contenedorPaginacion ul {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  border-style: double;
+  border-color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+.contenedorPaginaProductos .contenedorPaginacion ul .page-item {
+  color: aliceblue;
+  padding: 1vw;
+  margin: 1vw;
+  list-style: none;
+}
+.contenedorPaginaProductos .contenedorPaginacion ul .page-item:hover {
+  background-color: rgba(226, 218, 194, 0.822);
+  color: black;
+}
 
 /* PAGINA REGISTRARSE */
 .contenedorInicioSesion {
@@ -171,6 +319,15 @@ header .tituloProductos {
   margin: 2vw;
   border-style: double;
   color: aliceblue;
+}
+.contenedorInicioSesion .btn {
+  background-color: rgb(158, 182, 146);
+  color: aliceblue;
+  border-color: black;
+}
+.contenedorInicioSesion .btn:hover {
+  background-color: rgba(226, 218, 194, 0.822);
+  color: black;
 }
 
 .productos {
