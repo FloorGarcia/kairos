@@ -8,9 +8,13 @@ footer{
     text-align: center;
     
     .btn{
-        background-color:$paletaVio;
-        color: aliceblue;
-    
-        text-align: center;
+        @extend .botones;
+        @extend .botones2;
+    }
+
+    .redes{
+        a{
+            @extend .botones2;
+        }
     }
 }

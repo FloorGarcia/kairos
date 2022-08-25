@@ -3,25 +3,16 @@
     margin: 5%;
     padding-bottom: 10%;
     background-color: $paletaVio;
-    border-color: aliceblue;
-    border-style: ridge;
     color: aliceblue;
+    @include bordes;
 
     .contenedorMedio{
         margin: 6%;
         .eslogan{
-            text-align: center;
-            padding: 5%;
-        
-            display: flex;
-            justify-content: space-evenly;
+            @include cajas;
         }
         .desarrollo{
-            text-align: center;
-            padding: 5%;
-        
-            display: flex;
-            justify-content: space-evenly;
+            @include cajas;
         }
 
     }
@@ -29,22 +20,18 @@
         background-color: $paletaVer;
         margin: 3%;
         padding: 3%;
-        border-color: aliceblue;
-        border-style: ridge;
+        @include bordes;
 
         .subtitulo{
             text-align: center;
             padding: 2vw;
         }
         .card{
-            margin: 2px;
-            color: black;
+            @include cardPaginaProductos;
 
             text-align: center;
             .btn{
-                background-color: $paletaVio;
-                color: aliceblue;
-                text-align: center;
+                @extend .botones;
             }
         }
     }
@@ -57,31 +44,17 @@
     background-color: $paletaVio;
     padding: 4vw;
     margin: 2vw;
-    border-style: double;
-    color: aliceblue;
+    @include bordes;
    
     .contenedorGaia{
-        margin: 2vw;
-        background-color: $paletaVer;
-        padding: 3vw;
-        border-style: ridge;
-        color: aliceblue;
+        @include contenedoresProductos;
+        @include bordes;
 
         .tituloGaia{
-            text-align: center;
-            background-color: aliceblue;
-            color: rgb(37, 37, 37);
-            margin-bottom: 2vw;
+            @include titulosProductos;
         }
         .card{
-            margin: 2px;
-            color: black;
-            .btn{
-                background-color:$paletaVio;
-                color: aliceblue;
-            
-                text-align: center;
-            }
+            @include cardPaginaProductos;
         }
         .gaiaDesarrollo{
             background-color: aliceblue;
@@ -95,30 +68,14 @@
 
     }
     .contenedorHamburguesas{
-        margin: 2vw;
-        background-color:$paletaVer;
-        padding: 3vw;
-        border-style: ridge;
-        color: aliceblue;
-        
-        display: flex;
-        justify-content: center;
+        @include contenedoresProductos;
+        @include bordes;
 
         .tituloHamburguesas{
-            text-align: center;
-            background-color: aliceblue;
-            color: rgb(37, 37, 37);
-            margin-bottom: 2vw;
+            @include titulosProductos;
         }
         .card{
-            margin: 2px;
-            color: black;
-            .btn{
-                background-color: $paletaVio;
-                color: aliceblue;
-            
-                text-align: center;
-            }
+            @include cardPaginaProductos;
         }
         .hamburguesasDesarrollo{
             background-color: aliceblue;
@@ -131,27 +88,14 @@
         }
     }
     .contenedorLenceria{
-        margin: 2vw;
-        background-color: $paletaVer;
-        padding: 3vw;
-        border-style: ridge;
-        color: aliceblue;
+        @include contenedoresProductos;
+        @include bordes;
 
         .tituloLenceria{
-            text-align: center;
-            background-color: aliceblue;
-            color: rgb(37, 37, 37);
-            margin-bottom: 2vw;
+            @include titulosProductos;
         }
         .card{
-            margin: 2px;
-            color: black;
-            .btn{
-                background-color:$paletaVio;
-                color: aliceblue;
-            
-                text-align: center;
-            }
+            @include cardPaginaProductos;
         }
         .lenceriaDesarrollo{
             background-color: aliceblue;
@@ -165,27 +109,14 @@
 
     }
     .contenedorAlfareria{
-        margin: 2vw;
-        background-color: $paletaVer;
-        padding: 3vw;
-        border-style: ridge;
-        color: aliceblue;
+        @include contenedoresProductos;
+        @include bordes;
 
         .tituloAlfareria{
-            text-align: center;
-            background-color: aliceblue;
-            color: rgb(37, 37, 37);
-            margin-bottom: 2vw;
+            @include titulosProductos;
         }
         .card{
-            margin: 2px;
-            color: black;
-            .btn{
-                background-color:$paletaVio;
-                color: aliceblue;
-            
-                text-align: center;
-            }
+            @include cardPaginaProductos;
         }
         .alfareriaDesarrollo{
             background-color: aliceblue;
@@ -199,27 +130,14 @@
 
     }
     .contenedorRopa{
-        margin: 2vw;
-        background-color: $paletaVer;
-        padding: 3vw;
-        border-style: ridge;
-        color: aliceblue;
+        @include contenedoresProductos;
+        @include bordes;
 
         .tituloRopa{
-            text-align: center;
-            background-color: aliceblue;
-            color: rgb(37, 37, 37);
-            margin-bottom: 2vw;
+            @include titulosProductos;
         }
         .card{
-            margin: 2px;
-            color: black;
-            .btn{
-                background-color:$paletaVio;
-                color: aliceblue;
-            
-                text-align: center;
-            }
+            @include cardPaginaProductos;
         }
         .ropaDesarrollo{
             background-color: aliceblue;
@@ -233,27 +151,14 @@
 
     }
     .contenedorTelas{
-        margin: 2vw;
-        background-color: $paletaVer;
-        padding: 3vw;
-        border-style: ridge;
-        color: aliceblue;
+        @include contenedoresProductos;
+        @include bordes;
 
         .tituloTelas{
-            text-align: center;
-            background-color: aliceblue;
-            color: rgb(37, 37, 37);
-            margin-bottom: 2vw;
+            @include titulosProductos;
         }
         .card{
-            margin: 2px;
-            color: black;
-            .btn{
-                background-color:$paletaVio;
-                color: aliceblue;
-            
-                text-align: center;
-            }
+            @include cardPaginaProductos;
         }
         .telasDesarrollo{
             background-color: aliceblue;
@@ -275,8 +180,7 @@
         ul{
             padding-left: 2vw;
             padding-right: 2vw;
-            border-style: double;
-            border-color: aliceblue;
+            @include bordes2;
 
             display: flex;
             justify-content: space-evenly;
@@ -286,10 +190,7 @@
                 padding: 1vw;
                 margin: 1vw;
                 list-style: none;
-                &:hover{
-                    background-color: $paletaBeige;
-                    color: black;
-                }
+                @extend .botones2;
             }
         }
     }
@@ -301,34 +202,19 @@
     background-color: $paletaVio;
     padding: 4vw;
     margin: 2vw;
-    border-style: double;
-    color: aliceblue;
+    @include bordes2;
 
     .btn{
         background-color: $paletaVer;
         color: aliceblue;
         border-color: black;
-        &:hover{
-            background-color: $paletaBeige;
-            color: black;
-
-        }
+        @extend .botones2;
     }
 }
-
-
-
-
-
-
-
-
-
 
 .productos{
     text-align: center;
     padding: 5%;
-
     display: flex;
     justify-content: space-evenly;
 }

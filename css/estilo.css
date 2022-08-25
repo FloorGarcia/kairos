@@ -3,6 +3,17 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
+.botones, footer .btn, .medio .contenedorProductos .card .btn, nav .buscador .btn {
+  color: aliceblue;
+  text-align: center;
+  background-color: rgba(140, 123, 153, 0.863);
+}
+
+.botones2:hover, footer .redes a:hover, footer .btn:hover, .contenedorInicioSesion .btn:hover, .contenedorPaginaProductos .contenedorPaginacion ul .page-item:hover, nav .nav-item .nav-link:hover, nav .buscador .btn:hover {
+  background-color: rgba(226, 218, 194, 0.822);
+  color: black;
+}
+
 nav {
   background-color: aliceblue;
   padding: 5px;
@@ -11,13 +22,8 @@ nav .buscador {
   text-align: start;
   padding-top: 25px;
 }
-nav .buscador .me-2 {
+nav .buscador .btn {
   width: min-content;
-}
-nav .buscador .me-2 .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
 }
 nav .nav-item {
   text-align: start;
@@ -44,15 +50,17 @@ header .tituloProductos {
   padding: 1vw;
   font-style: italic;
   text-align: center;
+  border-color: aliceblue;
+  border-style: ridge;
 }
 
 .medio {
   margin: 5%;
   padding-bottom: 10%;
   background-color: rgba(140, 123, 153, 0.863);
+  color: aliceblue;
   border-color: aliceblue;
   border-style: ridge;
-  color: aliceblue;
 }
 .medio .contenedorMedio {
   margin: 6%;
@@ -85,26 +93,20 @@ header .tituloProductos {
   color: black;
   text-align: center;
 }
-.medio .contenedorProductos .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
-}
-
 /* PAGINA PRODUCTOS */
 .contenedorPaginaProductos {
   background-color: rgba(140, 123, 153, 0.863);
   padding: 4vw;
   margin: 2vw;
-  border-style: double;
-  color: aliceblue;
+  border-color: aliceblue;
+  border-style: ridge;
 }
 .contenedorPaginaProductos .contenedorGaia {
   margin: 2vw;
   background-color: rgb(158, 182, 146);
   padding: 3vw;
+  border-color: aliceblue;
   border-style: ridge;
-  color: aliceblue;
 }
 .contenedorPaginaProductos .contenedorGaia .tituloGaia {
   text-align: center;
@@ -115,11 +117,6 @@ header .tituloProductos {
 .contenedorPaginaProductos .contenedorGaia .card {
   margin: 2px;
   color: black;
-}
-.contenedorPaginaProductos .contenedorGaia .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
 }
 .contenedorPaginaProductos .contenedorGaia .gaiaDesarrollo {
   background-color: aliceblue;
@@ -134,10 +131,8 @@ header .tituloProductos {
   margin: 2vw;
   background-color: rgb(158, 182, 146);
   padding: 3vw;
+  border-color: aliceblue;
   border-style: ridge;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
 }
 .contenedorPaginaProductos .contenedorHamburguesas .tituloHamburguesas {
   text-align: center;
@@ -148,11 +143,6 @@ header .tituloProductos {
 .contenedorPaginaProductos .contenedorHamburguesas .card {
   margin: 2px;
   color: black;
-}
-.contenedorPaginaProductos .contenedorHamburguesas .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
 }
 .contenedorPaginaProductos .contenedorHamburguesas .hamburguesasDesarrollo {
   background-color: aliceblue;
@@ -167,8 +157,8 @@ header .tituloProductos {
   margin: 2vw;
   background-color: rgb(158, 182, 146);
   padding: 3vw;
+  border-color: aliceblue;
   border-style: ridge;
-  color: aliceblue;
 }
 .contenedorPaginaProductos .contenedorLenceria .tituloLenceria {
   text-align: center;
@@ -179,11 +169,6 @@ header .tituloProductos {
 .contenedorPaginaProductos .contenedorLenceria .card {
   margin: 2px;
   color: black;
-}
-.contenedorPaginaProductos .contenedorLenceria .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
 }
 .contenedorPaginaProductos .contenedorLenceria .lenceriaDesarrollo {
   background-color: aliceblue;
@@ -198,8 +183,8 @@ header .tituloProductos {
   margin: 2vw;
   background-color: rgb(158, 182, 146);
   padding: 3vw;
+  border-color: aliceblue;
   border-style: ridge;
-  color: aliceblue;
 }
 .contenedorPaginaProductos .contenedorAlfareria .tituloAlfareria {
   text-align: center;
@@ -210,11 +195,6 @@ header .tituloProductos {
 .contenedorPaginaProductos .contenedorAlfareria .card {
   margin: 2px;
   color: black;
-}
-.contenedorPaginaProductos .contenedorAlfareria .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
 }
 .contenedorPaginaProductos .contenedorAlfareria .alfareriaDesarrollo {
   background-color: aliceblue;
@@ -229,8 +209,8 @@ header .tituloProductos {
   margin: 2vw;
   background-color: rgb(158, 182, 146);
   padding: 3vw;
+  border-color: aliceblue;
   border-style: ridge;
-  color: aliceblue;
 }
 .contenedorPaginaProductos .contenedorRopa .tituloRopa {
   text-align: center;
@@ -241,11 +221,6 @@ header .tituloProductos {
 .contenedorPaginaProductos .contenedorRopa .card {
   margin: 2px;
   color: black;
-}
-.contenedorPaginaProductos .contenedorRopa .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
 }
 .contenedorPaginaProductos .contenedorRopa .ropaDesarrollo {
   background-color: aliceblue;
@@ -260,8 +235,8 @@ header .tituloProductos {
   margin: 2vw;
   background-color: rgb(158, 182, 146);
   padding: 3vw;
+  border-color: aliceblue;
   border-style: ridge;
-  color: aliceblue;
 }
 .contenedorPaginaProductos .contenedorTelas .tituloTelas {
   text-align: center;
@@ -272,11 +247,6 @@ header .tituloProductos {
 .contenedorPaginaProductos .contenedorTelas .card {
   margin: 2px;
   color: black;
-}
-.contenedorPaginaProductos .contenedorTelas .card .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
 }
 .contenedorPaginaProductos .contenedorTelas .telasDesarrollo {
   background-color: aliceblue;
@@ -297,7 +267,7 @@ header .tituloProductos {
   padding-left: 2vw;
   padding-right: 2vw;
   border-style: double;
-  border-color: aliceblue;
+  color: aliceblue;
   display: flex;
   justify-content: space-evenly;
 }
@@ -306,10 +276,6 @@ header .tituloProductos {
   padding: 1vw;
   margin: 1vw;
   list-style: none;
-}
-.contenedorPaginaProductos .contenedorPaginacion ul .page-item:hover {
-  background-color: rgba(226, 218, 194, 0.822);
-  color: black;
 }
 
 /* PAGINA REGISTRARSE */
@@ -324,10 +290,6 @@ header .tituloProductos {
   background-color: rgb(158, 182, 146);
   color: aliceblue;
   border-color: black;
-}
-.contenedorInicioSesion .btn:hover {
-  background-color: rgba(226, 218, 194, 0.822);
-  color: black;
 }
 
 .productos {
@@ -346,12 +308,6 @@ footer {
   padding: 2%;
   text-align: center;
 }
-footer .btn {
-  background-color: rgba(140, 123, 153, 0.863);
-  color: aliceblue;
-  text-align: center;
-}
-
 @media only screen and (max-width: 768px) {
   .kairos, .registrarseNav, .eslogan, .desarrollo, .redes {
     display: none;

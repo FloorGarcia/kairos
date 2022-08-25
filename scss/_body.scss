@@ -2,3 +2,51 @@ body{
     background-color: $paletaBeige;
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
+@mixin cajas{
+    text-align: center;
+    padding: 5%;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin bordes{
+    border-color: aliceblue;
+    border-style: ridge;
+}
+
+@mixin bordes2{
+    border-style: double;
+    color: aliceblue;
+}
+
+@mixin contenedoresProductos{
+    margin: 2vw;
+    background-color: $paletaVer;
+    padding: 3vw;
+}
+
+@mixin titulosProductos{
+    text-align: center;
+    background-color: aliceblue;
+    color: rgb(37, 37, 37);
+    margin-bottom: 2vw;
+}
+
+@mixin cardPaginaProductos{
+    margin: 2px;
+    color: black;
+}
+
+
+.botones{
+    color: aliceblue;
+    text-align: center;
+    background-color:$paletaVio;
+}
+.botones2{
+    &:hover{
+        background-color: $paletaBeige;
+        color: black;
+    }
+}
