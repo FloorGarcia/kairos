@@ -12,7 +12,7 @@
             @include cajas;
         }
         .desarrollo{
-            @include cajas;
+            @include cajas;;
         }
 
     }
@@ -23,16 +23,28 @@
         @include bordes;
 
         .subtitulo{
-            text-align: center;
-            padding: 2vw;
+            @include titulosProductos;
         }
-        .card{
+        .card-uno{
             @include cardPaginaProductos;
+            @include cardPaginaPrincipal;
+            background-image: url(../imagenes-de-productos/productoLenceria.jpg);
+        }
+        .card-dos{
+            @include cardPaginaProductos;
+            @include cardPaginaPrincipal;
+            background-image: url(../imagenes-de-productos/productoHamburguesas.jpg);
+        }
+        .card-tres{
+            @include cardPaginaProductos;
+            @include cardPaginaPrincipal;
+            background-image: url(../imagenes-de-productos/productoDecoracion.jpg);
+        }
+        .card-cuatro{
+            @include cardPaginaProductos;
+            @include cardPaginaPrincipal;
+            background-image: url(../imagenes-de-productos/productoAlfareria.jpg);
 
-            text-align: center;
-            .btn{
-                @extend .botones;
-            }
         }
     }
 
@@ -49,125 +61,119 @@
     .contenedorGaia{
         @include contenedoresProductos;
         @include bordes;
+        justify-items: center;
 
         .tituloGaia{
             @include titulosProductos;
         }
         .card{
             @include cardPaginaProductos;
+            @include listaBotones;
         }
         .gaiaDesarrollo{
-            background-color: aliceblue;
-            color: black;
-            margin: 2vw;
-            padding: 2vw;
+            @include estiloDesarrolloProductos;
         }
         .opinionGaia{
-            margin: 2vw;
+            @include opinionProductos;
         }
 
     }
     .contenedorHamburguesas{
         @include contenedoresProductos;
         @include bordes;
+        justify-items: center;
 
         .tituloHamburguesas{
             @include titulosProductos;
         }
         .card{
             @include cardPaginaProductos;
+            @include listaBotones;
         }
         .hamburguesasDesarrollo{
-            background-color: aliceblue;
-            color: black;
-            margin: 2vw;
-            padding: 2vw;
+            @include estiloDesarrolloProductos;
         }
         .opinionHamburguesas{
-            margin: 2vw;
+            @include opinionProductos;
         }
     }
     .contenedorLenceria{
         @include contenedoresProductos;
         @include bordes;
+        justify-items: center;
 
         .tituloLenceria{
             @include titulosProductos;
         }
         .card{
             @include cardPaginaProductos;
+            @include listaBotones;
         }
         .lenceriaDesarrollo{
-            background-color: aliceblue;
-            color: black;
-            margin: 2vw;
-            padding: 2vw;
+            @include estiloDesarrolloProductos;
         }
         .opinionLenceria{
-            margin: 2vw;
+            @include opinionProductos;
         }
 
     }
     .contenedorAlfareria{
         @include contenedoresProductos;
         @include bordes;
+        justify-items: center;
 
         .tituloAlfareria{
             @include titulosProductos;
         }
         .card{
             @include cardPaginaProductos;
+            @include listaBotones;
         }
         .alfareriaDesarrollo{
-            background-color: aliceblue;
-            color: black;
-            margin: 2vw;
-            padding: 2vw;
+            @include estiloDesarrolloProductos;
         }
         .opinionAlfareria{
-            margin: 2vw;
+            @include opinionProductos;
         }
 
     }
     .contenedorRopa{
         @include contenedoresProductos;
         @include bordes;
+        justify-items: center;
 
         .tituloRopa{
             @include titulosProductos;
         }
         .card{
             @include cardPaginaProductos;
+            @include listaBotones;
         }
         .ropaDesarrollo{
-            background-color: aliceblue;
-            color: black;
-            margin: 2vw;
-            padding: 2vw;
+            @include estiloDesarrolloProductos;
         }
         .opinionRopa{
-            margin: 2vw;
+            @include opinionProductos;
         }
 
     }
     .contenedorTelas{
         @include contenedoresProductos;
         @include bordes;
+        justify-items: center;
 
         .tituloTelas{
             @include titulosProductos;
         }
         .card{
             @include cardPaginaProductos;
+            @include listaBotones;
         }
         .telasDesarrollo{
-            background-color: aliceblue;
-            color: black;
-            margin: 2vw;
-            padding: 2vw;
+            @include estiloDesarrolloProductos;
         }
         .opinionTelas{
-            margin: 2vw;
+            @include opinionProductos;
         }
 
     }

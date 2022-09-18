@@ -1,6 +1,6 @@
 body{
     background-color: $paletaBeige;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 @mixin cajas{
     text-align: center;
@@ -17,7 +17,7 @@ body{
 
 @mixin bordes2{
     border-style: double;
-    color: aliceblue;
+    border-color: aliceblue;
 }
 
 @mixin contenedoresProductos{
@@ -28,14 +28,74 @@ body{
 
 @mixin titulosProductos{
     text-align: center;
-    background-color: aliceblue;
-    color: rgb(37, 37, 37);
-    margin-bottom: 2vw;
+    background-color: rgba(122, 103, 148, 0.466);
+    color:aliceblue;
+    text-decoration: solid;
+    padding: 1vw;
 }
-
+@mixin cardPaginaPrincipal{
+    padding: 6vw;
+    text-align: center;
+    background-size: 100%;
+    background-position: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+    .card-header, .card-body{
+        background-color: rgb(0,0,0);
+        background-color: rgba(0, 0, 0, 0.699);
+        padding: 2%;
+        color: white;
+        font-weight: bold;  
+    }
+    .btn{
+        @extend .botones;
+        border-color: aliceblue;
+    }
+}
 @mixin cardPaginaProductos{
-    margin: 2px;
+    margin: 2vw;
     color: black;
+    text-align: center;
+    padding-bottom: 2.5vw;
+}
+@mixin estiloDesarrolloProductos{
+    background-color: rgba(122, 103, 148, 0.466);
+    color:aliceblue;
+    text-decoration: solid;
+    margin: 2vw;
+    padding: 2vw;
+}
+@mixin opinionProductos{
+    background-color: rgba(122, 103, 148, 0.466);
+    color: aliceblue;
+    padding: 2vw;
+    margin: 2vw;
+    text-align: center;
+    textarea{
+        padding: 3vw;
+    }
+    button{
+        @extend .botones2;
+        @include bordes2;
+        color: $paletaVio;
+    }
+}
+@mixin listaBotones{
+    .btn{
+        @extend .botones;
+        @extend .botones2;
+        padding: 1vw;
+    }
+    ul{
+        background-color:$paletaBeige;
+        padding: 1vw;
+        a{
+            color: aliceblue;
+            text-decoration: none;
+            margin: 1vw;     
+         }
+    }
 }
 
 

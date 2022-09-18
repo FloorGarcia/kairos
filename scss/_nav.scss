@@ -1,12 +1,11 @@
 
 nav{
-    background-color: aliceblue;
+    background-color: $paletaVer;
     padding: 5px;
 
     .buscador{
         text-align: start;
         padding-top: 25px;
-        
         .btn{
             width: min-content;
             @extend .botones;
@@ -24,10 +23,17 @@ nav{
     }
     .kairos{
         padding: 10px;
-        text-align: center ;
+        text-align: center;
     }
     .registrarseNav{
         padding-top: 20px;
         text-align: end;
+        a{
+            @extend .botones2;
+            text-decoration: none;
+        }
+        img{
+            @extend .botones2;
+        }
     }
 }

@@ -1,21 +1,21 @@
 body {
   background-color: rgba(226, 218, 194, 0.822);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.botones, footer .btn, .medio .contenedorProductos .card .btn, nav .buscador .btn {
+.botones, footer .btn, .contenedorPaginaProductos .contenedorTelas .card .btn, .contenedorPaginaProductos .contenedorRopa .card .btn, .contenedorPaginaProductos .contenedorAlfareria .card .btn, .contenedorPaginaProductos .contenedorLenceria .card .btn, .contenedorPaginaProductos .contenedorHamburguesas .card .btn, .contenedorPaginaProductos .contenedorGaia .card .btn, .medio .contenedorProductos .card-cuatro .btn, .medio .contenedorProductos .card-tres .btn, .medio .contenedorProductos .card-dos .btn, .medio .contenedorProductos .card-uno .btn, nav .buscador .btn {
   color: aliceblue;
   text-align: center;
   background-color: rgba(140, 123, 153, 0.863);
 }
 
-.botones2:hover, footer .redes a:hover, footer .btn:hover, .contenedorInicioSesion .btn:hover, .contenedorPaginaProductos .contenedorPaginacion ul .page-item:hover, nav .nav-item .nav-link:hover, nav .buscador .btn:hover {
+.botones2:hover, footer .redes a:hover, footer .btn:hover, .contenedorInicioSesion .btn:hover, .contenedorPaginaProductos .contenedorPaginacion ul .page-item:hover, .contenedorPaginaProductos .contenedorTelas .opinionTelas button:hover, .contenedorPaginaProductos .contenedorTelas .card .btn:hover, .contenedorPaginaProductos .contenedorRopa .opinionRopa button:hover, .contenedorPaginaProductos .contenedorRopa .card .btn:hover, .contenedorPaginaProductos .contenedorAlfareria .opinionAlfareria button:hover, .contenedorPaginaProductos .contenedorAlfareria .card .btn:hover, .contenedorPaginaProductos .contenedorLenceria .opinionLenceria button:hover, .contenedorPaginaProductos .contenedorLenceria .card .btn:hover, .contenedorPaginaProductos .contenedorHamburguesas .opinionHamburguesas button:hover, .contenedorPaginaProductos .contenedorHamburguesas .card .btn:hover, .contenedorPaginaProductos .contenedorGaia .opinionGaia button:hover, .contenedorPaginaProductos .contenedorGaia .card .btn:hover, nav .registrarseNav img:hover, nav .registrarseNav a:hover, nav .nav-item .nav-link:hover, nav .buscador .btn:hover {
   background-color: rgba(226, 218, 194, 0.822);
   color: black;
 }
 
 nav {
-  background-color: aliceblue;
+  background-color: rgb(158, 182, 146);
   padding: 5px;
 }
 nav .buscador {
@@ -40,7 +40,9 @@ nav .registrarseNav {
   padding-top: 20px;
   text-align: end;
 }
-
+nav .registrarseNav a {
+  text-decoration: none;
+}
 header {
   margin: 2vw;
 }
@@ -86,13 +88,108 @@ header .tituloProductos {
 }
 .medio .contenedorProductos .subtitulo {
   text-align: center;
-  padding: 2vw;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
+  padding: 1vw;
 }
-.medio .contenedorProductos .card {
-  margin: 2px;
+.medio .contenedorProductos .card-uno {
+  margin: 2vw;
   color: black;
   text-align: center;
+  padding-bottom: 2.5vw;
+  padding: 6vw;
+  text-align: center;
+  background-size: 100%;
+  background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+  background-image: url(../imagenes-de-productos/productoLenceria.jpg);
 }
+.medio .contenedorProductos .card-uno .card-header, .medio .contenedorProductos .card-uno .card-body {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.699);
+  padding: 2%;
+  color: white;
+  font-weight: bold;
+}
+.medio .contenedorProductos .card-uno .btn {
+  border-color: aliceblue;
+}
+.medio .contenedorProductos .card-dos {
+  margin: 2vw;
+  color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+  padding: 6vw;
+  text-align: center;
+  background-size: 100%;
+  background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+  background-image: url(../imagenes-de-productos/productoHamburguesas.jpg);
+}
+.medio .contenedorProductos .card-dos .card-header, .medio .contenedorProductos .card-dos .card-body {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.699);
+  padding: 2%;
+  color: white;
+  font-weight: bold;
+}
+.medio .contenedorProductos .card-dos .btn {
+  border-color: aliceblue;
+}
+.medio .contenedorProductos .card-tres {
+  margin: 2vw;
+  color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+  padding: 6vw;
+  text-align: center;
+  background-size: 100%;
+  background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+  background-image: url(../imagenes-de-productos/productoDecoracion.jpg);
+}
+.medio .contenedorProductos .card-tres .card-header, .medio .contenedorProductos .card-tres .card-body {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.699);
+  padding: 2%;
+  color: white;
+  font-weight: bold;
+}
+.medio .contenedorProductos .card-tres .btn {
+  border-color: aliceblue;
+}
+.medio .contenedorProductos .card-cuatro {
+  margin: 2vw;
+  color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+  padding: 6vw;
+  text-align: center;
+  background-size: 100%;
+  background-position: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: aliceblue;
+  background-image: url(../imagenes-de-productos/productoAlfareria.jpg);
+}
+.medio .contenedorProductos .card-cuatro .card-header, .medio .contenedorProductos .card-cuatro .card-body {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.699);
+  padding: 2%;
+  color: white;
+  font-weight: bold;
+}
+.medio .contenedorProductos .card-cuatro .btn {
+  border-color: aliceblue;
+}
+
 /* PAGINA PRODUCTOS */
 .contenedorPaginaProductos {
   background-color: rgba(140, 123, 153, 0.863);
@@ -107,25 +204,54 @@ header .tituloProductos {
   padding: 3vw;
   border-color: aliceblue;
   border-style: ridge;
+  justify-items: center;
 }
 .contenedorPaginaProductos .contenedorGaia .tituloGaia {
   text-align: center;
-  background-color: aliceblue;
-  color: rgb(37, 37, 37);
-  margin-bottom: 2vw;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
+  padding: 1vw;
 }
 .contenedorPaginaProductos .contenedorGaia .card {
-  margin: 2px;
+  margin: 2vw;
   color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+.contenedorPaginaProductos .contenedorGaia .card .btn {
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorGaia .card ul {
+  background-color: rgba(226, 218, 194, 0.822);
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorGaia .card ul a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 1vw;
 }
 .contenedorPaginaProductos .contenedorGaia .gaiaDesarrollo {
-  background-color: aliceblue;
-  color: black;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
   margin: 2vw;
   padding: 2vw;
 }
 .contenedorPaginaProductos .contenedorGaia .opinionGaia {
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  padding: 2vw;
   margin: 2vw;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorGaia .opinionGaia textarea {
+  padding: 3vw;
+}
+.contenedorPaginaProductos .contenedorGaia .opinionGaia button {
+  border-style: double;
+  border-color: aliceblue;
+  color: rgba(140, 123, 153, 0.863);
 }
 .contenedorPaginaProductos .contenedorHamburguesas {
   margin: 2vw;
@@ -133,25 +259,54 @@ header .tituloProductos {
   padding: 3vw;
   border-color: aliceblue;
   border-style: ridge;
+  justify-items: center;
 }
 .contenedorPaginaProductos .contenedorHamburguesas .tituloHamburguesas {
   text-align: center;
-  background-color: aliceblue;
-  color: rgb(37, 37, 37);
-  margin-bottom: 2vw;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
+  padding: 1vw;
 }
 .contenedorPaginaProductos .contenedorHamburguesas .card {
-  margin: 2px;
+  margin: 2vw;
   color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+.contenedorPaginaProductos .contenedorHamburguesas .card .btn {
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorHamburguesas .card ul {
+  background-color: rgba(226, 218, 194, 0.822);
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorHamburguesas .card ul a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 1vw;
 }
 .contenedorPaginaProductos .contenedorHamburguesas .hamburguesasDesarrollo {
-  background-color: aliceblue;
-  color: black;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
   margin: 2vw;
   padding: 2vw;
 }
 .contenedorPaginaProductos .contenedorHamburguesas .opinionHamburguesas {
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  padding: 2vw;
   margin: 2vw;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorHamburguesas .opinionHamburguesas textarea {
+  padding: 3vw;
+}
+.contenedorPaginaProductos .contenedorHamburguesas .opinionHamburguesas button {
+  border-style: double;
+  border-color: aliceblue;
+  color: rgba(140, 123, 153, 0.863);
 }
 .contenedorPaginaProductos .contenedorLenceria {
   margin: 2vw;
@@ -159,25 +314,54 @@ header .tituloProductos {
   padding: 3vw;
   border-color: aliceblue;
   border-style: ridge;
+  justify-items: center;
 }
 .contenedorPaginaProductos .contenedorLenceria .tituloLenceria {
   text-align: center;
-  background-color: aliceblue;
-  color: rgb(37, 37, 37);
-  margin-bottom: 2vw;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
+  padding: 1vw;
 }
 .contenedorPaginaProductos .contenedorLenceria .card {
-  margin: 2px;
+  margin: 2vw;
   color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+.contenedorPaginaProductos .contenedorLenceria .card .btn {
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorLenceria .card ul {
+  background-color: rgba(226, 218, 194, 0.822);
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorLenceria .card ul a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 1vw;
 }
 .contenedorPaginaProductos .contenedorLenceria .lenceriaDesarrollo {
-  background-color: aliceblue;
-  color: black;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
   margin: 2vw;
   padding: 2vw;
 }
 .contenedorPaginaProductos .contenedorLenceria .opinionLenceria {
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  padding: 2vw;
   margin: 2vw;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorLenceria .opinionLenceria textarea {
+  padding: 3vw;
+}
+.contenedorPaginaProductos .contenedorLenceria .opinionLenceria button {
+  border-style: double;
+  border-color: aliceblue;
+  color: rgba(140, 123, 153, 0.863);
 }
 .contenedorPaginaProductos .contenedorAlfareria {
   margin: 2vw;
@@ -185,25 +369,54 @@ header .tituloProductos {
   padding: 3vw;
   border-color: aliceblue;
   border-style: ridge;
+  justify-items: center;
 }
 .contenedorPaginaProductos .contenedorAlfareria .tituloAlfareria {
   text-align: center;
-  background-color: aliceblue;
-  color: rgb(37, 37, 37);
-  margin-bottom: 2vw;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
+  padding: 1vw;
 }
 .contenedorPaginaProductos .contenedorAlfareria .card {
-  margin: 2px;
+  margin: 2vw;
   color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+.contenedorPaginaProductos .contenedorAlfareria .card .btn {
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorAlfareria .card ul {
+  background-color: rgba(226, 218, 194, 0.822);
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorAlfareria .card ul a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 1vw;
 }
 .contenedorPaginaProductos .contenedorAlfareria .alfareriaDesarrollo {
-  background-color: aliceblue;
-  color: black;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
   margin: 2vw;
   padding: 2vw;
 }
 .contenedorPaginaProductos .contenedorAlfareria .opinionAlfareria {
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  padding: 2vw;
   margin: 2vw;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorAlfareria .opinionAlfareria textarea {
+  padding: 3vw;
+}
+.contenedorPaginaProductos .contenedorAlfareria .opinionAlfareria button {
+  border-style: double;
+  border-color: aliceblue;
+  color: rgba(140, 123, 153, 0.863);
 }
 .contenedorPaginaProductos .contenedorRopa {
   margin: 2vw;
@@ -211,25 +424,54 @@ header .tituloProductos {
   padding: 3vw;
   border-color: aliceblue;
   border-style: ridge;
+  justify-items: center;
 }
 .contenedorPaginaProductos .contenedorRopa .tituloRopa {
   text-align: center;
-  background-color: aliceblue;
-  color: rgb(37, 37, 37);
-  margin-bottom: 2vw;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
+  padding: 1vw;
 }
 .contenedorPaginaProductos .contenedorRopa .card {
-  margin: 2px;
+  margin: 2vw;
   color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+.contenedorPaginaProductos .contenedorRopa .card .btn {
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorRopa .card ul {
+  background-color: rgba(226, 218, 194, 0.822);
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorRopa .card ul a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 1vw;
 }
 .contenedorPaginaProductos .contenedorRopa .ropaDesarrollo {
-  background-color: aliceblue;
-  color: black;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
   margin: 2vw;
   padding: 2vw;
 }
 .contenedorPaginaProductos .contenedorRopa .opinionRopa {
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  padding: 2vw;
   margin: 2vw;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorRopa .opinionRopa textarea {
+  padding: 3vw;
+}
+.contenedorPaginaProductos .contenedorRopa .opinionRopa button {
+  border-style: double;
+  border-color: aliceblue;
+  color: rgba(140, 123, 153, 0.863);
 }
 .contenedorPaginaProductos .contenedorTelas {
   margin: 2vw;
@@ -237,25 +479,54 @@ header .tituloProductos {
   padding: 3vw;
   border-color: aliceblue;
   border-style: ridge;
+  justify-items: center;
 }
 .contenedorPaginaProductos .contenedorTelas .tituloTelas {
   text-align: center;
-  background-color: aliceblue;
-  color: rgb(37, 37, 37);
-  margin-bottom: 2vw;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
+  padding: 1vw;
 }
 .contenedorPaginaProductos .contenedorTelas .card {
-  margin: 2px;
+  margin: 2vw;
   color: black;
+  text-align: center;
+  padding-bottom: 2.5vw;
+}
+.contenedorPaginaProductos .contenedorTelas .card .btn {
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorTelas .card ul {
+  background-color: rgba(226, 218, 194, 0.822);
+  padding: 1vw;
+}
+.contenedorPaginaProductos .contenedorTelas .card ul a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 1vw;
 }
 .contenedorPaginaProductos .contenedorTelas .telasDesarrollo {
-  background-color: aliceblue;
-  color: black;
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  text-decoration: solid;
   margin: 2vw;
   padding: 2vw;
 }
 .contenedorPaginaProductos .contenedorTelas .opinionTelas {
+  background-color: rgba(122, 103, 148, 0.466);
+  color: aliceblue;
+  padding: 2vw;
   margin: 2vw;
+  text-align: center;
+}
+.contenedorPaginaProductos .contenedorTelas .opinionTelas textarea {
+  padding: 3vw;
+}
+.contenedorPaginaProductos .contenedorTelas .opinionTelas button {
+  border-style: double;
+  border-color: aliceblue;
+  color: rgba(140, 123, 153, 0.863);
 }
 .contenedorPaginaProductos .contenedorPaginacion {
   margin: 2vw;
@@ -267,7 +538,7 @@ header .tituloProductos {
   padding-left: 2vw;
   padding-right: 2vw;
   border-style: double;
-  color: aliceblue;
+  border-color: aliceblue;
   display: flex;
   justify-content: space-evenly;
 }
@@ -284,7 +555,7 @@ header .tituloProductos {
   padding: 4vw;
   margin: 2vw;
   border-style: double;
-  color: aliceblue;
+  border-color: aliceblue;
 }
 .contenedorInicioSesion .btn {
   background-color: rgb(158, 182, 146);
@@ -308,9 +579,16 @@ footer {
   padding: 2%;
   text-align: center;
 }
+footer .redes a {
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 992px) {
   .kairos {
     display: none;
+  }
+  .buscador {
+    margin-bottom: 2vw;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -332,6 +610,11 @@ footer {
   .contenedorPaginaProductos .row > * .gaiaDesarrollo, .contenedorPaginaProductos .row > * .hamburguesasDesarrollo {
     font-size: 2.5vw;
   }
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1vw;
+  }
 }
 @media only screen and (max-width: 768px) {
   .contenedorPaginaProductos .card {
@@ -342,7 +625,7 @@ footer {
     font-size: 2vw;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 576px) {
   nav {
     display: flex;
     justify-content: center;
